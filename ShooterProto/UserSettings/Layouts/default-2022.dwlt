@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1342
     height: 644
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 162
+  controlID: 13865
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 19
+  controlID: 13778
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,8 +220,8 @@ MonoBehaviour:
     y: 0
     width: 281
     height: 594
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -469,7 +469,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -638,7 +638,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 0
-      snapOffset: {x: 0, y: 0}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: Scene View/Particles
@@ -690,7 +690,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 1
       displayed: 1
-      snapOffset: {x: 352, y: 258}
+      snapOffset: {x: 296, y: 258}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
@@ -774,9 +774,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 20.728245, y: 4.2527604, z: -2.9788465}
+    m_Target: {x: -8.319377, y: -0.29469872, z: 96.2035}
     speed: 2
-    m_Value: {x: 20.728245, y: 4.2527604, z: -2.9788465}
+    m_Value: {x: -8.319377, y: -0.29469872, z: 96.2035}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -822,13 +822,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.21774165, y: 0.0920748, z: -0.020638058, w: 0.9714345}
+    m_Target: {x: 0.12089396, y: -0.6376019, z: 0.10224165, w: 0.75392145}
     speed: 2
-    m_Value: {x: 0.21774165, y: 0.0920748, z: -0.020638058, w: 0.9714345}
+    m_Value: {x: 0.12089382, y: -0.63760114, z: 0.10224153, w: 0.75392056}
   m_Size:
-    m_Target: 40.167328
+    m_Target: 4.750852
     speed: 2
-    m_Value: 40.167328
+    m_Value: 4.750852
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -963,7 +963,7 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -222080
+  m_LastSelectedObjectID: -235474
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1002,25 +1002,25 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 2afbffff
+      m_SelectedIDs: 2e68fcff
+      m_LastClickedID: -235474
+      m_ExpandedIDs: be68fcff5085fcffea92fcff46a4fcff7aa4fcff7ea4fcff82a4fcff90a4fcff46fefdff0285fefff2dcfefff8dcfeffd290ffffe290fffff690ffff2afbfffffeac0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Weapon_Blaster(Clone)
+        m_OriginalName: Weapon_Blaster(Clone)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -239210
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 7}
+        m_ClientGUIView: {fileID: 9}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1074,7 +1074,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/FPS/Scripts
+    - Assets/FPS/Prefabs/Weapons
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1082,16 +1082,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 62
   m_LastFolders:
-  - Assets/FPS/Scripts
+  - Assets/FPS/Prefabs/Weapons
   m_LastFoldersGridSize: 62
-  m_LastProjectPath: C:\Users\frank\ShooterProto
+  m_LastProjectPath: C:\Users\frank\Documents\GitHub\ShooterPrototype\ShooterProto
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a4260100
-    m_LastClickedID: 75428
-    m_ExpandedIDs: 00000000a0260100a2260100a4260100a6260100a8260100aa260100
+    m_SelectedIDs: c8270100
+    m_LastClickedID: 75720
+    m_ExpandedIDs: 000000003c2701003e27010040270100422701004427010094270100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1119,7 +1119,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a0260100a2260100a4260100a6260100a8260100aa260100
+    m_ExpandedIDs: 000000003c2701003e270100402701004227010044270100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1147,7 +1147,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: 9a5f00007a5a00005065000024650000f26b000092810000fc640000788000009a7700009ea70000e2650000f0650000d2660000a8a3000090b400001c68000078640000746a000090600000
+    m_ExpandedInstanceIDs: 9a5f00007a5a00005065000024650000f26b000092810000fc640000788000009a7700009ea70000e2650000f0650000d2660000a8a3000090b400001c68000078640000746a000090600000562f01005a2f0100
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

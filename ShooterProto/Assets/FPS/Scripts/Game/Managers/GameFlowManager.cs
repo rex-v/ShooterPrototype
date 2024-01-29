@@ -58,13 +58,13 @@ namespace Unity.FPS.Game
                 EndGameFadeCanvasGroup.alpha = timeRatio;
 
                 AudioUtility.SetMasterVolume(1 - timeRatio);
-                /*
+
                 // See if it's time to load the end scene (after the delay)
                 if (Time.time >= m_TimeLoadEndGameScene)
                 {
-                    //SceneManager.LoadScene(m_SceneToLoad);
+                    SceneManager.LoadScene(m_SceneToLoad);
                     GameIsEnding = false;
-                }*/
+                }
             }
         }
 
@@ -107,7 +107,7 @@ namespace Unity.FPS.Game
             }
             else
             {
-                respawnmenu.SetActive(true);
+                //respawnmenu.SetActive(true);
                 m_SceneToLoad = LoseSceneName;
                 m_TimeLoadEndGameScene = Time.time + EndSceneLoadDelay;
             }
@@ -119,8 +119,11 @@ namespace Unity.FPS.Game
             EventManager.RemoveListener<PlayerDeathEvent>(OnPlayerDeath);
         }
 
-        public void respawnPlayer () {
-            SceneManager.LoadScene(m_SceneToLoad);
+        public void respawnPlayer() {
+            float timeRatio = 1 - (m_TimeLoadEndGameScene - Time.time) / EndSceneLoadDelay;
+            EndGameFadeCanvasGroup.alpha = timeRatio;
+
+            //SceneManager.LoadScene(m_SceneToLoad);
             //GameIsEnding = false;
             //EndGameFadeCanvasGroup.alpha = 0;
 
