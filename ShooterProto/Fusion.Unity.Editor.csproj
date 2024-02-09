@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Fusion</RootNamespace>
-    <ProjectGuid>{96D62001-AF8F-DF80-7959-176F7ED96AC3}</ProjectGuid>
+    <ProjectGuid>{5D3B19F1-1679-1AD8-5059-2DEE0FD57101}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Fusion.Unity.Editor</AssemblyName>
@@ -956,23 +956,23 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Fusion.Unity.csproj">
-      <Project>{DDD86B97-A055-D77B-4F75-C8DB9556C3A5}</Project>
+      <Project>{F90C4D71-F7FF-A95F-A580-2252C3F31165}</Project>
       <Name>Fusion.Unity</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{42AAB1A6-2744-BDAC-6CAD-BABD6E4F2CF5}</Project>
+      <Project>{BBF532C0-3783-2A77-9E64-6ADC1EE5457F}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{4984B5B6-A448-18BC-471E-4522E0668777}</Project>
+      <Project>{ADAB4F48-B5FE-B1E4-1C9E-950C410257C8}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{10604C17-EFBB-93EA-A565-C72AB7DFE530}</Project>
+      <Project>{D120790D-25A4-028E-355C-DC53512D19F2}</Project>
       <Name>UnityEditor.TestRunner</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{F1FA2A72-B99D-F5D1-AC41-CC41B3E074E1}</Project>
+      <Project>{05240CD6-E25D-1D50-B898-3C9FFF04E286}</Project>
       <Name>UnityEngine.TestRunner</Name>
     </ProjectReference>
   </ItemGroup>
