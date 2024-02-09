@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/frank/Documents/GitHub/ShooterPrototype/ShooterProto
+C:/Users/frank/Documents/GitHub/ShooterProto
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53640
-Successfully changed project path to: C:/Users/frank/Documents/GitHub/ShooterPrototype/ShooterProto
-C:/Users/frank/Documents/GitHub/ShooterPrototype/ShooterProto
+49260
+Successfully changed project path to: C:/Users/frank/Documents/GitHub/ShooterProto
+C:/Users/frank/Documents/GitHub/ShooterProto
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,15 +49,15 @@ C:/Users/frank/Documents/GitHub/ShooterPrototype/ShooterProto
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [29136] Host "[IP] 192.168.4.230 [Port] 0 [Flags] 2 [Guid] 2736123483 [EditorId] 2736123483 [Version] 1048832 [Id] WindowsEditor(7,GoSunny) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [25280] Host "[IP] 10.0.0.143 [Port] 0 [Flags] 2 [Guid] 3058210480 [EditorId] 3058210480 [Version] 1048832 [Id] WindowsEditor(7,GoSunny) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [29136] Host "[IP] 192.168.4.230 [Port] 0 [Flags] 2 [Guid] 2736123483 [EditorId] 2736123483 [Version] 1048832 [Id] WindowsEditor(7,GoSunny) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25280] Host "[IP] 10.0.0.143 [Port] 0 [Flags] 2 [Guid] 3058210480 [EditorId] 3058210480 [Version] 1048832 [Id] WindowsEditor(7,GoSunny) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 12.02 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 22.04 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/frank/Documents/GitHub/ShooterPrototype/ShooterProto/Assets
+[Subsystems] Discovering subsystems at path C:/Users/frank/Documents/GitHub/ShooterProto/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -69,44 +69,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007128 seconds.
-- Loaded All Assemblies, in  0.368 seconds
+Registered in 0.006433 seconds.
+- Loaded All Assemblies, in  0.305 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.245 seconds
-Domain Reload Profiling: 610ms
-	BeginReloadAssembly (116ms)
+- Finished resetting the current domain, in  0.206 seconds
+Domain Reload Profiling: 509ms
+	BeginReloadAssembly (98ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (138ms)
-		LoadAssemblies (113ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (108ms)
+		LoadAssemblies (96ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (136ms)
-			TypeCache.Refresh (135ms)
-				TypeCache.ScanAssembly (122ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (94ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (245ms)
+	FinalizeReload (206ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (187ms)
+		SetupLoadedEditorAssemblies (159ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (124ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			ProcessInitializeOnLoadAttributes (106ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -114,53 +114,53 @@ Domain Reload Profiling: 610ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\frank\Documents\GitHub\ShooterPrototype\ShooterProto\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\frank\Documents\GitHub\ShooterPrototype\ShooterProto\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.621 seconds
-Refreshing native plugins compatible for Editor in 2.72 ms, found 1 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\frank\Documents\GitHub\ShooterProto\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\frank\Documents\GitHub\ShooterProto\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.655 seconds
+Refreshing native plugins compatible for Editor in 8.91 ms, found 2 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.574 seconds
-Domain Reload Profiling: 1191ms
+- Finished resetting the current domain, in  0.613 seconds
+Domain Reload Profiling: 1264ms
 	BeginReloadAssembly (134ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (19ms)
-	RebuildCommonClasses (29ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (8ms)
 	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (411ms)
-		LoadAssemblies (300ms)
+	LoadAllAssembliesAndSetupDomain (446ms)
+		LoadAssemblies (292ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (189ms)
-			TypeCache.Refresh (156ms)
-				TypeCache.ScanAssembly (140ms)
-			ScanForSourceGeneratedMonoScriptInfo (22ms)
+		AnalyzeDomain (232ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (183ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
 			ResolveRequiredComponents (10ms)
-	FinalizeReload (574ms)
+	FinalizeReload (613ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (421ms)
+		SetupLoadedEditorAssemblies (432ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (277ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (312ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 6.55 ms, found 1 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 10.79 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5406 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (390.3 KB). Loaded Objects now: 5900.
-Memory consumption went from 224.7 MB to 224.4 MB.
-Total: 7.157300 ms (FindLiveObjects: 0.732700 ms CreateObjectMapping: 0.430900 ms MarkObjects: 5.654900 ms  DeleteObjects: 0.336400 ms)
+Unloading 6079 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 109 unused Assets / (1.2 MB). Loaded Objects now: 6549.
+Memory consumption went from 303.9 MB to 302.8 MB.
+Total: 4.306900 ms (FindLiveObjects: 0.393200 ms CreateObjectMapping: 0.267200 ms MarkObjects: 3.321500 ms  DeleteObjects: 0.323900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -178,1142 +178,88 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 28882.766793 seconds.
-  path: Assets/FPS/Art/Models/Mesh_Weapon_Secondary.fbx
-  artifactKey: Guid(ff6da3339a124244295a978acc07e2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FPS/Art/Models/Mesh_Weapon_Secondary.fbx using Guid(ff6da3339a124244295a978acc07e2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee926498272944aa8b631b1e5394a91') in 0.022886 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 27.996769 seconds.
-  path: Assets/PolygonMilitary/Models/FX_Decal_Bullet_Concrete_03.fbx
-  artifactKey: Guid(62efd788ffd66ca4cb8268a8b2101407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/FX_Decal_Bullet_Concrete_03.fbx using Guid(62efd788ffd66ca4cb8268a8b2101407) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9239682e061f6dc1c005198efd096eb') in 0.003365 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/PolygonMilitary/Models/polySurface168.fbx
-  artifactKey: Guid(2d277a55232110145ae69b7d9863987d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/polySurface168.fbx using Guid(2d277a55232110145ae69b7d9863987d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec8d0141927ca87f2c14caf85c1b62c') in 0.007639 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Archway_02.fbx
-  artifactKey: Guid(6b4d8b6dbb7ca2b48aa2644b8290bd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Archway_02.fbx using Guid(6b4d8b6dbb7ca2b48aa2644b8290bd01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2185b86668d9e1ee9cf6458f5c2115') in 0.006033 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonMilitary/Models/FX_Decal_Bullet_Metal_02.fbx
-  artifactKey: Guid(24fb1f192044f714480d72a06b6d9c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/FX_Decal_Bullet_Metal_02.fbx using Guid(24fb1f192044f714480d72a06b6d9c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7616e8fae05c79cb621ad6cd0b62f8e3') in 0.003064 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Archway_01.fbx
-  artifactKey: Guid(c8d0d429738e1114cb1a447f84eca8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Archway_01.fbx using Guid(c8d0d429738e1114cb1a447f84eca8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8379654b34675354a2629998beb4a78') in 0.004856 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 11.273388 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Door_Cage_03.fbx
-  artifactKey: Guid(56afd946434fcd449bcb73b72f5cb827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Door_Cage_03.fbx using Guid(56afd946434fcd449bcb73b72f5cb827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744e0e9c33cb44caf676db30710ae91c') in 0.002489 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.020332 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Door_Shop_01.fbx
-  artifactKey: Guid(1ab3e020a77d6b4458e3565ec2cb5f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Door_Shop_01.fbx using Guid(1ab3e020a77d6b4458e3565ec2cb5f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42f0a1aaa2b89358e4c94c1a166e2f3') in 0.003018 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.307969 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_GasTower_01.fbx
-  artifactKey: Guid(9d456750940593e41a842fa9128113fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_GasTower_01.fbx using Guid(9d456750940593e41a842fa9128113fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6ac8d02d85d67d17e09ff72611d2692') in 0.026695 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_GasTower_Destroyed_02.fbx
-  artifactKey: Guid(07383319734e87342baf19817c1c1339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_GasTower_Destroyed_02.fbx using Guid(07383319734e87342baf19817c1c1339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3742f954d40193a6e9d21929d5d5c75f') in 0.002663 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.325137 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Hall_02.fbx
-  artifactKey: Guid(4ed71721307c2c948aa5c8d1b181b92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Hall_02.fbx using Guid(4ed71721307c2c948aa5c8d1b181b92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea65225b1857916b8e26184b2d6ae2e') in 0.027371 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.001575 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Hangar_Open_01.fbx
-  artifactKey: Guid(f42a6a641f53a2745828e94e892ed827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Hangar_Open_01.fbx using Guid(f42a6a641f53a2745828e94e892ed827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a03e81ce4438b7120c3e7a6c5cde81') in 0.010928 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.281091 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Plywood_Shed_Destroyed_01.fbx
-  artifactKey: Guid(50b496864007a3b4d9fd14b60a8b0065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Plywood_Shed_Destroyed_01.fbx using Guid(50b496864007a3b4d9fd14b60a8b0065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d21321a462b80db6bb589cbe1959e9') in 0.046450 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.294602 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Roof_Cap_Destroyed_02.fbx
-  artifactKey: Guid(8d680486df9b00c4d8c9542936f991ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Roof_Cap_Destroyed_02.fbx using Guid(8d680486df9b00c4d8c9542936f991ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4c99ab6adc797b5d6bc39f884888ed') in 0.008520 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.074872 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Ruins_04.fbx
-  artifactKey: Guid(2a60e51cda95e9748a1b2e49ce2903e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Ruins_04.fbx using Guid(2a60e51cda95e9748a1b2e49ce2903e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff142072b7f4b09de50cf901d97bf36a') in 0.002044 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.233182 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Shop_01_Destroyed.fbx
-  artifactKey: Guid(7af5d1e8396c7774aac2352e7855ebca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Shop_01_Destroyed.fbx using Guid(7af5d1e8396c7774aac2352e7855ebca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bc6babe95c0279d6ffdf18f68bfaf69') in 0.005122 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Shop_04.fbx
-  artifactKey: Guid(0ee36102dee027841bf563aa2becf8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Shop_04.fbx using Guid(0ee36102dee027841bf563aa2becf8e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfe286d9d4244b75dd8367959eb968d6') in 0.015989 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.321583 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Shop_07_Destroyed.fbx
-  artifactKey: Guid(082468f5473c27e4386a744e984c248b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Shop_07_Destroyed.fbx using Guid(082468f5473c27e4386a744e984c248b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c729fa48ef35bd94ddb86bb461a1734') in 0.029035 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.299668 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Shop_Door_02.fbx
-  artifactKey: Guid(b3e70becc12b68d4aa2fcaad93c56903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Shop_Door_02.fbx using Guid(b3e70becc12b68d4aa2fcaad93c56903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6156dc06fc752d36371c56e00b68c1ac') in 0.021658 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Shops_ClothCover_Small_01.fbx
-  artifactKey: Guid(0aea057eb8b39aa4c87e80e1edfba30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Shops_ClothCover_Small_01.fbx using Guid(0aea057eb8b39aa4c87e80e1edfba30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7da7fedba45a3fe23cc05e0fe772c66') in 0.002288 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.001153 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Shop_Door_04.fbx
-  artifactKey: Guid(7d145f7d050270c49ab2eb46acfd8f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Shop_Door_04.fbx using Guid(7d145f7d050270c49ab2eb46acfd8f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fb184dedbe6d2872f787391c3550274') in 0.002906 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 1.222474 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Tent_Refugee_01.fbx
-  artifactKey: Guid(0e119362acc122248b47b71a3923244b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Tent_Refugee_01.fbx using Guid(0e119362acc122248b47b71a3923244b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9f3b8dc80ba7aac3cb062990c9f599') in 0.014572 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.009251 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Village_House_Stairs_01.fbx
-  artifactKey: Guid(0fa49f22b5e7c1344814a3e9097086a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Village_House_Stairs_01.fbx using Guid(0fa49f22b5e7c1344814a3e9097086a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4181f9217654afb09ea5fb1e2d833441') in 0.003827 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Village_Stairs_02.fbx
-  artifactKey: Guid(8b96ce00cfe6a3d42aad6f0f5e0d7adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Village_Stairs_02.fbx using Guid(8b96ce00cfe6a3d42aad6f0f5e0d7adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44095d858abbf1b7d6feafef32ce403e') in 0.001493 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Village_House_04_Destroyed.fbx
-  artifactKey: Guid(739c762873b05bb41812aac113c367c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Village_House_04_Destroyed.fbx using Guid(739c762873b05bb41812aac113c367c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ec1b78854fd9503d61344d6f8a6187') in 0.004434 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Chr_Attach_Beard_05.fbx
-  artifactKey: Guid(165265421b670604b819b84e3920b75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Chr_Attach_Beard_05.fbx using Guid(165265421b670604b819b84e3920b75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d5760f9777f6a4328f512a6a1e2ad2') in 0.002394 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Village_03_Destroyed.fbx
-  artifactKey: Guid(8a7c845f87fb400419d62fcca18ba806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Village_03_Destroyed.fbx using Guid(8a7c845f87fb400419d62fcca18ba806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf15984af403f8be6ff21d9acb973c4') in 0.001391 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Village_Door_Basic_01.fbx
-  artifactKey: Guid(448afdba0e899ff41ab696dcbb59c623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Village_Door_Basic_01.fbx using Guid(448afdba0e899ff41ab696dcbb59c623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615b9afac7c2d82789ed4646cfa4e5f4') in 0.001632 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Village_House_02_Destroyed.fbx
-  artifactKey: Guid(bd22e16b7bae03e44b316c8f268a7729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Village_House_02_Destroyed.fbx using Guid(bd22e16b7bae03e44b316c8f268a7729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd4cff9d30ade7897da04ee61c651ff') in 0.002656 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Chr_Attach_Nameplate_08.fbx
-  artifactKey: Guid(7e4978bd2dc722f41832a3621fda9be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Chr_Attach_Nameplate_08.fbx using Guid(7e4978bd2dc722f41832a3621fda9be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcb916287eb221587aac6e3db5c3a5c') in 0.001791 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Chr_Attach_NVG_Mount_01.fbx
-  artifactKey: Guid(2abc75d65ecc1d845afc67becffaa052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Chr_Attach_NVG_Mount_01.fbx using Guid(2abc75d65ecc1d845afc67becffaa052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6375598b9f3590cd3abe0b803d0f8faf') in 0.001445 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Chr_Attach_Beard_03.fbx
-  artifactKey: Guid(f162da1e7c48e85489f21b7512f842c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Chr_Attach_Beard_03.fbx using Guid(f162da1e7c48e85489f21b7512f842c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '098d070ba9b4a6a20b9ff6b990efef45') in 0.001703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Chr_Attach_Patch_Flag_04.fbx
-  artifactKey: Guid(26334348b154c7e439d037b48e89b4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Chr_Attach_Patch_Flag_04.fbx using Guid(26334348b154c7e439d037b48e89b4b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed89c02f5c409ff9be2e65042cc5725c') in 0.001479 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Chr_Attach_Bomb_Kit_01.fbx
-  artifactKey: Guid(eb8e1470af2394845b1cbc70d955d4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Chr_Attach_Bomb_Kit_01.fbx using Guid(eb8e1470af2394845b1cbc70d955d4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26bcc619456ef3641debbd3768cf11e2') in 0.002630 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Village_Archway_Pillar_01.fbx
-  artifactKey: Guid(01dc4f63d19732b4cb3d20a5983fb900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Village_Archway_Pillar_01.fbx using Guid(01dc4f63d19732b4cb3d20a5983fb900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6d3a54508fcb7e316d7c4a63d43287') in 0.001489 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Chr_Attach_Beard_11.fbx
-  artifactKey: Guid(b05d8feae2f87b248b8c5c84c57b32c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Chr_Attach_Beard_11.fbx using Guid(b05d8feae2f87b248b8c5c84c57b32c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2469f42f6d5fba25362eb130801a7a66') in 0.001280 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Env_Bush_Large_04.fbx
-  artifactKey: Guid(6c16dbe8ff81aad48bdd78635713e606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Env_Bush_Large_04.fbx using Guid(6c16dbe8ff81aad48bdd78635713e606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0c2cd8f166a949e3d211534719ddde8') in 0.002069 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Env_Bush_Small_03.fbx
-  artifactKey: Guid(45da13aed17b758449f725455c88c8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Env_Bush_Small_03.fbx using Guid(45da13aed17b758449f725455c88c8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19e47eadad19cf6925ac6ffdd3425f0') in 0.001530 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Env_Flowers_02.fbx
-  artifactKey: Guid(572dd3735d386dd40b2a94337634a3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Env_Flowers_02.fbx using Guid(572dd3735d386dd40b2a94337634a3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5ddfc6edbdced0f423178d2ba07bbe') in 0.002267 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Village_Wall_Pillar_01.fbx
-  artifactKey: Guid(df72033e7bdc2bf43991aca3a9f72e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Village_Wall_Pillar_01.fbx using Guid(df72033e7bdc2bf43991aca3a9f72e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362c14a7a740249f44409e5cf38ec978') in 0.001454 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Village_Window_02.fbx
-  artifactKey: Guid(e821268a84d4b9e42b334292041a77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Village_Window_02.fbx using Guid(e821268a84d4b9e42b334292041a77d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1ba9a3e4cf72759f51e4b93eebcfa7') in 0.002512 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Env_Cactus_01.fbx
-  artifactKey: Guid(6a01e5cc98c95754eb1a64b17d541904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Env_Cactus_01.fbx using Guid(6a01e5cc98c95754eb1a64b17d541904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0496be072531a17f452dd7518b58a2') in 0.001621 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Village_Archway_02.fbx
-  artifactKey: Guid(33976e746eb1c124faadd7235b42cdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Village_Archway_02.fbx using Guid(33976e746eb1c124faadd7235b42cdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d61bf9156befc75177765c2f1c7de31') in 0.001735 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Env_SandEdge_02.fbx
-  artifactKey: Guid(d774c3d2360c4e94eb4aab95296dd4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Env_SandEdge_02.fbx using Guid(d774c3d2360c4e94eb4aab95296dd4a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6446f87415772907f5b135e3480697') in 0.001698 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Env_SandEdge_04.fbx
-  artifactKey: Guid(53d2e08717345834aa02a2fc5c8d9411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Env_SandEdge_04.fbx using Guid(53d2e08717345834aa02a2fc5c8d9411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3f0778d4cf0083f4f5c2e6c117b98e') in 0.001703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Env_SandEdge_06.fbx
-  artifactKey: Guid(2e98f0908e66d2740a8daa02ba4624dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Env_SandEdge_06.fbx using Guid(2e98f0908e66d2740a8daa02ba4624dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd588f5316359f32fc87fce86f6d35a1') in 0.001807 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Env_Tree_Bush_01.fbx
-  artifactKey: Guid(3e4eb286fced4ce45a66b2c511233efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Env_Tree_Bush_01.fbx using Guid(3e4eb286fced4ce45a66b2c511233efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056a5805b4ce1dc9ac8b83e2179226ba') in 0.004152 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Env_Sidewalk_Corner_02.fbx
-  artifactKey: Guid(82e453b52fbbb2a46a21fd4a1041d02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Env_Sidewalk_Corner_02.fbx using Guid(82e453b52fbbb2a46a21fd4a1041d02f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f420a633232fa06b440145d7054898a4') in 0.001470 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Chr_Attach_Patch_Rank_01.fbx
-  artifactKey: Guid(d38c95ef5a39e03498cb12ab8bb4e403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Chr_Attach_Patch_Rank_01.fbx using Guid(d38c95ef5a39e03498cb12ab8bb4e403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d472b57d12a8201119719f034e0ac0') in 0.001472 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Item_Pouch_01.fbx
-  artifactKey: Guid(5cb5eca2ef2e1cd4fbb616a5c5df863a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Item_Pouch_01.fbx using Guid(5cb5eca2ef2e1cd4fbb616a5c5df863a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060e41b4ff9a4c7c94b8c663261b77fd') in 0.001510 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Item_Pencil_01.fbx
-  artifactKey: Guid(2fce362cf5eb11b4aa50b9a0e15541b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Item_Pencil_01.fbx using Guid(2fce362cf5eb11b4aa50b9a0e15541b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5da59bca2b0bac1b3311d3cdc903e2') in 0.002075 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Item_Meal_Tube_01.fbx
-  artifactKey: Guid(3e6fe3bee66289a409e7a66bfddb91ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Item_Meal_Tube_01.fbx using Guid(3e6fe3bee66289a409e7a66bfddb91ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ab6985c90aff5e1118e0adf5704f21') in 0.002392 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Chr_Attach_Bombsuit_Helmet_01.fbx
-  artifactKey: Guid(edce96ac12fbf30429ccc3fe3a23db14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Chr_Attach_Bombsuit_Helmet_01.fbx using Guid(edce96ac12fbf30429ccc3fe3a23db14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b11fcaa8ab6272d1346abc10c70f88') in 0.002472 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Env_DirtRoad_Exit_02.fbx
-  artifactKey: Guid(35934d8caae2d8d428d409620da2649b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Env_DirtRoad_Exit_02.fbx using Guid(35934d8caae2d8d428d409620da2649b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b4ad905606f1c1ad86de6651de48126') in 0.002260 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Basket_02.fbx
-  artifactKey: Guid(647d43b70a3b59a4ca7d65564dd6be8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Basket_02.fbx using Guid(647d43b70a3b59a4ca7d65564dd6be8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec5dda2038f98e0b2fb1e4f1d76263d1') in 0.002447 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Bathroom_Pipes_02.fbx
-  artifactKey: Guid(74a9ff8bef11dce4294bfd94242d2f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Bathroom_Pipes_02.fbx using Guid(74a9ff8bef11dce4294bfd94242d2f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d090cbdda87497fe04015bcb8689ab9') in 0.001299 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Basket_04.fbx
-  artifactKey: Guid(fa6345b5c15a98943a7a2edfa78073dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Basket_04.fbx using Guid(fa6345b5c15a98943a7a2edfa78073dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23398363a4e9f79cfa78447200fd98da') in 0.001218 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Barrier_Tall_03.fbx
-  artifactKey: Guid(5dd6036f76101a545b1550be6d498345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Barrier_Tall_03.fbx using Guid(5dd6036f76101a545b1550be6d498345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ce571e4d5f7faf52ec3a584eeee83d4') in 0.002083 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Chr_Attach_Patch_Flag_01.fbx
-  artifactKey: Guid(95ae16c42fce692468c3e0c99c264936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Chr_Attach_Patch_Flag_01.fbx using Guid(95ae16c42fce692468c3e0c99c264936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a3ea8d11832f1ef915aa350906d7bdd') in 0.001037 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Village_Archway_01.fbx
-  artifactKey: Guid(9f34c49763619e842ae88d792a1a8324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Village_Archway_01.fbx using Guid(9f34c49763619e842ae88d792a1a8324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8352774038729a103fcfec399cc50b24') in 0.001586 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Crate_Cube_02.fbx
-  artifactKey: Guid(e4bfc44e669849a4e9ec837f5358d5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Crate_Cube_02.fbx using Guid(e4bfc44e669849a4e9ec837f5358d5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4d54f122f146d5febae3708a9070b2e') in 0.001329 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Crate_Stack_Cover_03.fbx
-  artifactKey: Guid(c46b9767f4f79f546969a5502fdce462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Crate_Stack_Cover_03.fbx using Guid(c46b9767f4f79f546969a5502fdce462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910e3c140c3d846246193811dfdfbf2d') in 0.001864 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_DebrisPile_03.fbx
-  artifactKey: Guid(3f59fbf5913abf34ead486820a5a106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_DebrisPile_03.fbx using Guid(3f59fbf5913abf34ead486820a5a106c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bfd571c343f5421f68785c53f660d8c') in 0.001918 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Crate_Stack_Cover_01.fbx
-  artifactKey: Guid(1d0079766b0fce547acb4c82feda08ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Crate_Stack_Cover_01.fbx using Guid(1d0079766b0fce547acb4c82feda08ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7921e8ff3e3bffa22db3f7b521152106') in 0.001803 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Bld_Village_Stairs_01.fbx
-  artifactKey: Guid(4af0aeadb7a94b4408f724ad63fbf7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Bld_Village_Stairs_01.fbx using Guid(4af0aeadb7a94b4408f724ad63fbf7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad810f738825e6b39959aa088070ec91') in 0.001064 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Chr_Attach_Bomb_C4_01.fbx
-  artifactKey: Guid(9d8f1bb001d15e44596c8b8849ae31f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Chr_Attach_Bomb_C4_01.fbx using Guid(9d8f1bb001d15e44596c8b8849ae31f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06e6aea3712a0f4cffc660f94d3f111b') in 0.002125 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Gold_Plate_05.fbx
-  artifactKey: Guid(3233460da079aa04ebc19bbc7e9fef1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Gold_Plate_05.fbx using Guid(3233460da079aa04ebc19bbc7e9fef1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e209b483fa9c8c156d830793214c9ee8') in 0.001176 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Gold_Plates_Preset_03.fbx
-  artifactKey: Guid(ef02a125dbc3534469fba24633a09945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Gold_Plates_Preset_03.fbx using Guid(ef02a125dbc3534469fba24633a09945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303003b3a5e186e1e5308b4649b5a53e') in 0.001995 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Gold_Bowl_03.fbx
-  artifactKey: Guid(560f5aa030cd2804b885f1b85eb4b1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Gold_Bowl_03.fbx using Guid(560f5aa030cd2804b885f1b85eb4b1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddf857781920dedd863a5ec2480f1297') in 0.001900 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Gold_Bowl_Large_01.fbx
-  artifactKey: Guid(b0a3262e9d25e454ab349f6f05e97f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Gold_Bowl_Large_01.fbx using Guid(b0a3262e9d25e454ab349f6f05e97f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2db1b0ed11af10fef4df155a77e141') in 0.002245 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Crate_Plastic_01.fbx
-  artifactKey: Guid(f4ae748cc87e1de479739bd913c8897b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Crate_Plastic_01.fbx using Guid(f4ae748cc87e1de479739bd913c8897b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e385f83d94ca93ab94fa7ba006563fb3') in 0.001401 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.003906 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Gold_Teapot_03.fbx
-  artifactKey: Guid(a8fdf0a21704aa546991f43b8ff112d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Gold_Teapot_03.fbx using Guid(a8fdf0a21704aa546991f43b8ff112d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f569a78ffaf749193646e5423d3e1d') in 0.001815 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_IED_03.fbx
-  artifactKey: Guid(ba1edc692a0facf4084e399cde7d5523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_IED_03.fbx using Guid(ba1edc692a0facf4084e399cde7d5523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809da093d4a3f4ee5364cbe80fd9bd33') in 0.001208 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_IED_04.fbx
-  artifactKey: Guid(e9f170e0b1d25314988f2527a761d1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_IED_04.fbx using Guid(e9f170e0b1d25314988f2527a761d1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f96cc269e8c73f1d78dd87d063c07a9') in 0.001363 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Gym_Weight_Stack_01.fbx
-  artifactKey: Guid(820ed87c04b8e6a41b5bcb6223e0cab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Gym_Weight_Stack_01.fbx using Guid(820ed87c04b8e6a41b5bcb6223e0cab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89b433276a14aa26ef4442dc82f9917') in 0.001256 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.020560 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Ladder_02.fbx
-  artifactKey: Guid(e2c1acdf775180744a70dd0e4e88ad18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Ladder_02.fbx using Guid(e2c1acdf775180744a70dd0e4e88ad18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6929f011c1c0cea5f72ee7b3b9a92f24') in 0.001545 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Lamp_01.fbx
-  artifactKey: Guid(7913dce611266c749af922b8ebfe17a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Lamp_01.fbx using Guid(7913dce611266c749af922b8ebfe17a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe9f5ec105a319f11899af04124aec87') in 0.001764 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Laundry_Washer_01.fbx
-  artifactKey: Guid(c89a32ffe794d8746be637e6c01bf520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Laundry_Washer_01.fbx using Guid(c89a32ffe794d8746be637e6c01bf520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ab683ab048adb5f2951ab8313974ce') in 0.001401 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Makeshift_Fence_02.fbx
-  artifactKey: Guid(ed9b776d1ce690e4bb2d5ac260f333bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Makeshift_Fence_02.fbx using Guid(ed9b776d1ce690e4bb2d5ac260f333bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35188cea3f07de2724f97cebbb414d5') in 0.001324 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.009544 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Meat_Sausages_01.fbx
-  artifactKey: Guid(b52bff444d840f04d828d2aeb3b54644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Meat_Sausages_01.fbx using Guid(b52bff444d840f04d828d2aeb3b54644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09f089b81feb58fb3e8f895793d11938') in 0.002293 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.026633 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Mine_02.fbx
-  artifactKey: Guid(beb3c78140d1351438d4e04f2b757ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Mine_02.fbx using Guid(beb3c78140d1351438d4e04f2b757ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b81c3a318c3b749a6eb82f54acea8ba') in 0.001241 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Missle_Launcher_01.fbx
-  artifactKey: Guid(2f4a68a5d6de6f547a2f71a3ef6875d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Missle_Launcher_01.fbx using Guid(2f4a68a5d6de6f547a2f71a3ef6875d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a17b8c18b6af10c1b9671e845f5ec10') in 0.006097 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 86
-========================================================================
-Received Import Request.
-  Time since last request: 0.021804 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Pillow_01.fbx
-  artifactKey: Guid(185fe9643d0c1794da72c5ac5ee8e8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Pillow_01.fbx using Guid(185fe9643d0c1794da72c5ac5ee8e8d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '060d64fe234f51ad3903c278a0514570') in 0.002047 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Pipeline_Pipe_Large_End_02.fbx
-  artifactKey: Guid(ab9304eda6e96d44f8b504e64d37782e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Pipeline_Pipe_Large_End_02.fbx using Guid(ab9304eda6e96d44f8b504e64d37782e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6810087237e737c7a65e0d11d99efb1a') in 0.002360 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Pipeline_Pipe_Large_Support_01.fbx
-  artifactKey: Guid(b29665a8ba96ca849a3e835bf89ece30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Pipeline_Pipe_Large_Support_01.fbx using Guid(b29665a8ba96ca849a3e835bf89ece30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969287fd6d20495972f66ae564022d38') in 0.001805 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Pillow_04.fbx
-  artifactKey: Guid(cecfe61d96cdb4f41b67336752737a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Pillow_04.fbx using Guid(cecfe61d96cdb4f41b67336752737a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfcdb4ee913eef234efd9f3370b0db35') in 0.001434 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.008757 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Pot_03.fbx
-  artifactKey: Guid(0d092071bc750ed45a2c8c208633c536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Pot_03.fbx using Guid(0d092071bc750ed45a2c8c208633c536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d597a3c5b6326977880ec2ee81e301') in 0.001364 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Powerline_02.fbx
-  artifactKey: Guid(02164822820fbfc4c8254c69ed46fa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Powerline_02.fbx using Guid(02164822820fbfc4c8254c69ed46fa0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be6859733f1bd5bfa06f32cc10cc4ff4') in 0.001370 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Pot_Large_02.fbx
-  artifactKey: Guid(be4dc0842da9653488856971f2ddf26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Pot_Large_02.fbx using Guid(be4dc0842da9653488856971f2ddf26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30899f255715b06cd6f10a365d1a34bf') in 0.002548 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Pot_Large_03.fbx
-  artifactKey: Guid(ad6fae0897bb941418c2e7388bef7138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Pot_Large_03.fbx using Guid(ad6fae0897bb941418c2e7388bef7138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3075a571507df64bf22d6770338ac5') in 0.001217 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.004606 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Propane_01.fbx
-  artifactKey: Guid(501b8edea169e964bb5e71f623891bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Propane_01.fbx using Guid(501b8edea169e964bb5e71f623891bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427c74cebb3f27599b9d148368378de2') in 0.001108 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_RazorWire_01.fbx
-  artifactKey: Guid(8af8a352fdabcd544baf343fc52bcc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_RazorWire_01.fbx using Guid(8af8a352fdabcd544baf343fc52bcc2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153afe97ad6b76106758bfae6cb8c8fb') in 0.002028 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_RadioPhone_01.fbx
-  artifactKey: Guid(1ca0d7c1e152ebd408319d71bb8a25cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_RadioPhone_01.fbx using Guid(1ca0d7c1e152ebd408319d71bb8a25cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296b389706d100a025a21c03ae667476') in 0.001688 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Rubbish_Bottle_01.fbx
-  artifactKey: Guid(2160fb361fc25a74dbe4e5c58872af17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Rubbish_Bottle_01.fbx using Guid(2160fb361fc25a74dbe4e5c58872af17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77659b9b908c5f0d86377c2c26e4a8f8') in 0.001403 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.010764 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Rug_18.fbx
-  artifactKey: Guid(cfba4855d9a109349b43c25ad18de87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Rug_18.fbx using Guid(cfba4855d9a109349b43c25ad18de87d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '254ed304ff59393b6f5cddd235c2825e') in 0.001279 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Rug_23.fbx
-  artifactKey: Guid(ef9b918785bfd754a8bf2f9cd5cf74ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Rug_23.fbx using Guid(ef9b918785bfd754a8bf2f9cd5cf74ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8963c522d9e7a5b181f5f4353936056') in 0.001746 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Rug_21.fbx
-  artifactKey: Guid(2044b47fcbf7d53449d2e81254c775a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Rug_21.fbx using Guid(2044b47fcbf7d53449d2e81254c775a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fb2636a0afaa6fb9a7aa090a4548bc') in 0.001935 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Rug_30.fbx
-  artifactKey: Guid(fd3f677fb518572498f86befc6331f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Rug_30.fbx using Guid(fd3f677fb518572498f86befc6331f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfb079424da3cec7b23d2e261d02da5') in 0.001165 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.004515 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Satellite_Dish_04.fbx
-  artifactKey: Guid(bbe476d3186830c43bddb8d786297d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Satellite_Dish_04.fbx using Guid(bbe476d3186830c43bddb8d786297d46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb6047e34132900834e6c0a57766b035') in 0.001108 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Shell_02.fbx
-  artifactKey: Guid(5906da1305263864aa46c879cf1363d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Shell_02.fbx using Guid(5906da1305263864aa46c879cf1363d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980007043c25a9bed213f89fac31bae7') in 0.001494 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Shoes_04.fbx
-  artifactKey: Guid(ac866739ee007314387bcebbf9926ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Shoes_04.fbx using Guid(ac866739ee007314387bcebbf9926ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a68ff7a5687bd827c6a937419df8228e') in 0.003450 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Shoes_01.fbx
-  artifactKey: Guid(c304c53f8f9b5364a9b64db084d96907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Shoes_01.fbx using Guid(c304c53f8f9b5364a9b64db084d96907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67d66c2bd04a6e7032d3b1aa52ec5522') in 0.004048 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Shoes_02.fbx
-  artifactKey: Guid(8a06110e5538189488a7c9547b8bf5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Shoes_02.fbx using Guid(8a06110e5538189488a7c9547b8bf5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e052b699a9d0abd65a1d2f5308a3da9f') in 0.001305 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.002542 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Vehicle_Debris_07.fbx
-  artifactKey: Guid(1aa7e39538f256647a2d44df9d1ec17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Vehicle_Debris_07.fbx using Guid(1aa7e39538f256647a2d44df9d1ec17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac0c23fabd5c1649fd26f05bc97de97') in 0.003116 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_WeaponCase_01.fbx
-  artifactKey: Guid(147aaeb653cf299459653b99379620cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_WeaponCase_01.fbx using Guid(147aaeb653cf299459653b99379620cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bd9d5f47667ac19106dcda1a80e562') in 0.003231 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Washingline_01.fbx
-  artifactKey: Guid(4b75bf658b4aecc43a3466bf104cd750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Washingline_01.fbx using Guid(4b75bf658b4aecc43a3466bf104cd750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe7b7728b0aa4ad73f620e2e11446f6') in 0.002491 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_WaterTank_04.fbx
-  artifactKey: Guid(0de236b6156917148a5b4521db511786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_WaterTank_04.fbx using Guid(0de236b6156917148a5b4521db511786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299c1e2fdd37a52cc8a0673526925cae') in 0.001120 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.006888 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Prop_Wood_Plinth_01_Clean.fbx
-  artifactKey: Guid(aab435b02d6a26a42972830a00934ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Prop_Wood_Plinth_01_Clean.fbx using Guid(aab435b02d6a26a42972830a00934ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ecf74476a14b92742859c53347251da') in 0.001188 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Veh_APC_01_Destroyed.fbx
-  artifactKey: Guid(37935389df5c64f44b9a6c9cc1df39d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Veh_APC_01_Destroyed.fbx using Guid(37935389df5c64f44b9a6c9cc1df39d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd03955b6027a169ea5753003c18146') in 0.006011 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.032364 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Veh_Attach_Aerial_05.fbx
-  artifactKey: Guid(b8a4be46d8f1e3049a849e0f4a6964e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Veh_Attach_Aerial_05.fbx using Guid(b8a4be46d8f1e3049a849e0f4a6964e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aba89c11ebf480a8d29bf447eca04d7') in 0.002179 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.056159 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Veh_Attach_Cloth_02.fbx
-  artifactKey: Guid(4e89aad2270282545a349cdb778e3961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Veh_Attach_Cloth_02.fbx using Guid(4e89aad2270282545a349cdb778e3961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c0aa5f17f332d3d1c1c4efea9430364') in 0.001731 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Veh_Attach_Flare_02.fbx
-  artifactKey: Guid(6f09758edc7f37b46ac3b4a0ced855c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Veh_Attach_Flare_02.fbx using Guid(6f09758edc7f37b46ac3b4a0ced855c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269a8d31efdc9686ca6a56d3e3c30f3e') in 0.002635 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Veh_Attach_Container_01.fbx
-  artifactKey: Guid(480555ec8683a8343b8921efdd7570d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Veh_Attach_Container_01.fbx using Guid(480555ec8683a8343b8921efdd7570d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b20a080782dc13420a99638e8783710') in 0.002697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.075685 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Veh_Attach_Spade_01.fbx
-  artifactKey: Guid(eb3cc855f79b4ad4eb4ddf80a4b894c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Veh_Attach_Spade_01.fbx using Guid(eb3cc855f79b4ad4eb4ddf80a4b894c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e358c8818ed8cd241fec84afe6f7ad0d') in 0.001990 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Veh_Attach_Tank_Armour_07.fbx
-  artifactKey: Guid(735c1cdb5b8ca2f488dfdd1f6c808120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Veh_Attach_Tank_Armour_07.fbx using Guid(735c1cdb5b8ca2f488dfdd1f6c808120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5874de57412e8dbd52c46b1e92bfc4cb') in 0.002146 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+  Time since last request: 9629.518513 seconds.
+  path: Assets/EnemyAI/Examples
+  artifactKey: Guid(c6195a43a0187a34e9c6be23520d3766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyAI/Examples using Guid(c6195a43a0187a34e9c6be23520d3766) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fd52e8dd51f9349453d9a6e8f464c66') in 0.001979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
   Time since last request: 0.000036 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Veh_Attach_Tank_Armour_09.fbx
-  artifactKey: Guid(bad8afbfdfe8f4740a4cf726c160243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Veh_Attach_Tank_Armour_09.fbx using Guid(bad8afbfdfe8f4740a4cf726c160243d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30415c257afdcacdc19158b8b883d61e') in 0.001179 seconds
+  path: Assets/EnemyAI/Examples/Prefabs/enemy_ak.prefab
+  artifactKey: Guid(8d9173730906dd84b8e70ee93ce211e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyAI/Examples/Prefabs/enemy_ak.prefab using Guid(8d9173730906dd84b8e70ee93ce211e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181d9b816c1ccbf6b9bf60bd78624ca8') in 0.042438 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 290
 ========================================================================
-Received Import Request.
-  Time since last request: 0.046467 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Veh_Attach_Tank_Round_03.fbx
-  artifactKey: Guid(89d17d28a2abd534b8e22fa6515e1499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Veh_Attach_Tank_Round_03.fbx using Guid(89d17d28a2abd534b8e22fa6515e1499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e65b0834a03e5bd63535fb9e5024ea') in 0.001778 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.059771 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Crosshair_Sniper_05.fbx
-  artifactKey: Guid(79f77894ddb458048a79fc9c1ff87401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Crosshair_Sniper_05.fbx using Guid(79f77894ddb458048a79fc9c1ff87401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fd3ba4006c0ba45808397803327f47b') in 0.003627 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Mod_A_Barrel_01.fbx
-  artifactKey: Guid(b1892ca0826f96b43a41cecde070fa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Mod_A_Barrel_01.fbx using Guid(b1892ca0826f96b43a41cecde070fa38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb645152fb9d9d0617cc3fff77357f5e') in 0.001481 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Knife_01.fbx
-  artifactKey: Guid(514c636d5c559ff439e3ca8b06fec66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Knife_01.fbx using Guid(514c636d5c559ff439e3ca8b06fec66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3f41a725c08a015b689b3da792912ca') in 0.002269 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Knife_Kukri_01.fbx
-  artifactKey: Guid(041c99b4f55f4c440927a5c91403597f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Knife_Kukri_01.fbx using Guid(041c99b4f55f4c440927a5c91403597f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22f5c8ced1b0e66c524a16649fde2f77') in 0.001750 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.005171 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Mod_A_Stock_04.fbx
-  artifactKey: Guid(4f124f917c7a44644b450ab01fb5b8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Mod_A_Stock_04.fbx using Guid(4f124f917c7a44644b450ab01fb5b8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba29511a0c3b019906ce7c44970406bb') in 0.001438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Mod_B_Barrel_01.fbx
-  artifactKey: Guid(7cf9b2a7528bc9f44ab2ce9ad35974a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Mod_B_Barrel_01.fbx using Guid(7cf9b2a7528bc9f44ab2ce9ad35974a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e3e174c029640722a0b7563dbb4c7a') in 0.002078 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Mod_B_Grip_02.fbx
-  artifactKey: Guid(982a3bd0f7a241742a60b44d4ced6645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Mod_B_Grip_02.fbx using Guid(982a3bd0f7a241742a60b44d4ced6645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ce1fb5cd2b58ad9b42427c4e1a0d49a') in 0.001468 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Mod_B_Barrel_02.fbx
-  artifactKey: Guid(92099bd6afb5d554d9489a321b0cf415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Mod_B_Barrel_02.fbx using Guid(92099bd6afb5d554d9489a321b0cf415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9687a7efbe52b8ca746af3ff3b47ea5') in 0.001405 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.021442 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Mod_B_Mag_06.fbx
-  artifactKey: Guid(ef7355e4069e17d4a9ee3fba462726a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Mod_B_Mag_06.fbx using Guid(ef7355e4069e17d4a9ee3fba462726a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8716d8cb57006964007bd24fc0a0211d') in 0.002041 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Mod_B_Stock_05.fbx
-  artifactKey: Guid(19c47307d8c447c4898543a6f8a34b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Mod_B_Stock_05.fbx using Guid(19c47307d8c447c4898543a6f8a34b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ce43a503782ebbdaadc54df28e9055') in 0.001664 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Mod_Bipod_03.fbx
-  artifactKey: Guid(2136f02ccc56277419aeafdf76f9595a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Mod_Bipod_03.fbx using Guid(2136f02ccc56277419aeafdf76f9595a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35ca7e25f7376419968f24f89547b6a') in 0.002221 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Mod_B_Stock_03.fbx
-  artifactKey: Guid(7883e1c90a641fc4a873cf47d264fb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Mod_B_Stock_03.fbx using Guid(7883e1c90a641fc4a873cf47d264fb98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94e0dc753276209d452fc60e6e846b15') in 0.001258 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.026019 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Mod_ForeGrip_04.fbx
-  artifactKey: Guid(22352340143c0894a9dce7eb9b26e984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Mod_ForeGrip_04.fbx using Guid(22352340143c0894a9dce7eb9b26e984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510561e901cc64f5cb0a1e070c10e739') in 0.001224 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Mod_Laser_01.fbx
-  artifactKey: Guid(f39b3190ad3e1cb4b92332ddecdcb062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Mod_Laser_01.fbx using Guid(f39b3190ad3e1cb4b92332ddecdcb062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cceb210bc85d506edfe1cfad04c002e4') in 0.002115 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Mod_Rail_02.fbx
-  artifactKey: Guid(c94da43b73c04684fa36f5408fb2595f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Mod_Rail_02.fbx using Guid(c94da43b73c04684fa36f5408fb2595f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3221de93b20993de495759257771e6c6') in 0.001394 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.031242 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Mod_RailCover_02.fbx
-  artifactKey: Guid(a5ac5db48c5a77c488ae0cfc89c26993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Mod_RailCover_02.fbx using Guid(a5ac5db48c5a77c488ae0cfc89c26993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd43dcb00d9f7d69243683c4fd4c5ee2') in 0.001669 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Mod_Scope_04.fbx
-  artifactKey: Guid(31c1461763f5bf646970b315d1db0a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Mod_Scope_04.fbx using Guid(31c1461763f5bf646970b315d1db0a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2680cdc679043461965628388fb3ba') in 0.004527 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Mod_Scope_01.fbx
-  artifactKey: Guid(2d16654e7f16b4f48b60ad7b31e646b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Mod_Scope_01.fbx using Guid(2d16654e7f16b4f48b60ad7b31e646b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c8b1ba459db19902b8c43c462ee83f') in 0.004129 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.020095 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Mod_Scope_08.fbx
-  artifactKey: Guid(6fc6191bccc037b438979e22eda7cb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Mod_Scope_08.fbx using Guid(6fc6191bccc037b438979e22eda7cb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca4721c22714ca82748322b61226d89') in 0.002140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Mod_Silencer_01.fbx
-  artifactKey: Guid(ebfac3bedb793804f8afdd9bc29812fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Mod_Silencer_01.fbx using Guid(ebfac3bedb793804f8afdd9bc29812fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f62f5ddefa8df42f46786dcd26654f') in 0.003130 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Mod_Scope_14.fbx
-  artifactKey: Guid(3435ed5941a1b2e418e8e54a29d9961d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Mod_Scope_14.fbx using Guid(3435ed5941a1b2e418e8e54a29d9961d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eabc50bb1922f062a86e3a09a0b5db12') in 0.002093 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.017621 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Preset_A_Rifle_03.fbx
-  artifactKey: Guid(ecd684132c924b640bc555629e198ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Preset_A_Rifle_03.fbx using Guid(ecd684132c924b640bc555629e198ee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee4c87f705b45fda3fa3a881ac30795') in 0.004318 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_RPG_Rocket_Seperate_01.fbx
-  artifactKey: Guid(5f8e32c930755a3449bccf9bc4d730cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_RPG_Rocket_Seperate_01.fbx using Guid(5f8e32c930755a3449bccf9bc4d730cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b358c45f723b7c62f0fead710b0fc0') in 0.001595 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Sniper_01.fbx
-  artifactKey: Guid(8968a6f270f400745932282566245719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Sniper_01.fbx using Guid(8968a6f270f400745932282566245719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a46dbf76cc47f76041c22933d59f7e3') in 0.004212 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 21
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/PolygonMilitary/Models/SM_Wep_Preset_B_Heavy_01.fbx
-  artifactKey: Guid(7f8daf020f4939d45a182d46454a5dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/PolygonMilitary/Models/SM_Wep_Preset_B_Heavy_01.fbx using Guid(7f8daf020f4939d45a182d46454a5dc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fafde5ae6115932b3b5f8f648813f435') in 0.004621 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\frank\Documents\GitHub\ShooterProto\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\frank\Documents\GitHub\ShooterProto\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.464 seconds
+Refreshing native plugins compatible for Editor in 11.78 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.317 seconds
+Domain Reload Profiling: 1777ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (295ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1318ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (616ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (437ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 21.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5897 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 66 unused Assets / (1.1 MB). Loaded Objects now: 6568.
+Memory consumption went from 270.5 MB to 269.4 MB.
+Total: 5.589500 ms (FindLiveObjects: 0.421400 ms CreateObjectMapping: 0.311100 ms MarkObjects: 4.540700 ms  DeleteObjects: 0.314800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
